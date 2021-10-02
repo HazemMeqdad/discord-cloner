@@ -12,7 +12,6 @@ class Copy(object):
 
     def create_roles(self):
         roles = self.guild.roles
-        print(roles)
         for role in roles:
             if role["name"] == "@everyone":
                 continue
