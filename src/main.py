@@ -2,7 +2,7 @@ from time import sleep
 from colner import Guild, Restart, Copy
 
 
-words = "\x1b[6;30;42m[ This tool made by: H A Z E M#1629 ]\x1b[0m\nhttps://github.com/HazemMeqdad\nSupport: https://discord.gg/VcWRRphVQB\n"
+words = "\x1b[6;30;42m[ This tool made by: H A Z E M#1629 ]\x1b[0m\nSupport: https://discord.gg/8BpjPtUeAX\n"
 for char in words:
     sleep(0.1)
     print(char, end='', flush=True)
@@ -40,7 +40,7 @@ def main():
         # to get all commands and author creator
         elif command.startswith(".help"):
 
-            print("Copyright: https://github.com/HazemMeqdad\nSupport: https://discord.gg/VcWRRphVQB")
+            print("Copyright: https://github.com/HazemMeqdad\nSupport: https://discord.gg/8BpjPtUeAX")
             z = ""
             for com, d in commands.items():  # make help command
                 z += com + "\n"
