@@ -2,7 +2,7 @@
 
 ## 🚀 Getting Started
 - python: [Python 3](https://www.python.org/downloads/)
-- clone project: `git clone https://github.com/HazemMeqdad/ClonerV2.git` 
+- clone project: `git clone https://github.com/HazemMeqdad/discord-colner.git` 
 - support: [support](https://discord.gg/VcWRRphVQB)
 
 ## 🤝 Setup
