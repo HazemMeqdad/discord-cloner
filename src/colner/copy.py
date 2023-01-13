@@ -81,7 +81,7 @@ class Copy(object):
                 user_limit=category.get("user_limit"),
                 rate_limit_per_user=category.get("rate_limit_per_user"),
                 position=category["position"],
-                nsfw=category["nsfw"],
+                nsfw=category.get("nsfw"),
                 permission_overwrites=permission(category)
             )
             if new_category.get("code"):
